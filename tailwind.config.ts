@@ -8,11 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        logo:["Wallpoet","sans-serif"],
+        primary: ["Poppins","sans-serif"],
+      }, 
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+        'hero-pattern': "url('./public/images/bgimage.svg')",
+      }
     },
   },
   plugins: [],
