@@ -15,7 +15,7 @@ function Contact() {
           <h1 data-aos="fade-up" className='font-bold text-7xl text-center mb-16 text-blue-800'>Let&apos;s Talk! </h1>
           <p data-aos="fade-up" className="text-lg font-bold text-center mb-16">
             Boost your startup&apos;s success. I tailor my process to
-            meet your unique <p>business needs.</p>
+            meet your unique <br />business needs.
           </p>
           <div className="flex justify-center">
             <Link href={"/contact"} >

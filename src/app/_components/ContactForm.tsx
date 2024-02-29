@@ -35,8 +35,8 @@ function ContactForm() {
           <textarea
             name=""
             id="Description"
-            cols="30"
-            rows="10"
+            cols={30}
+            rows={10}
             className=" p-3 shadow-2xl"
           ></textarea>
         </div>
