@@ -19,7 +19,7 @@ const Input: FC<InputProps> = ({
 }) => {
   return (
     <div className="input-wrapper flex flex-col ">
-      <label className="font-semibold py-3"  htmlFor={label}>{label}</label>
+      <label data-aos="fade-up" className="font-semibold py-3"  htmlFor={label}>{label}</label>
       <input
         className="p-3 shadow-2xl h-[80px]"
         data-aos="fade-up"

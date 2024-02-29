@@ -37,7 +37,7 @@ function ContactForm() {
             id="Description"
             cols="30"
             rows="10"
-            className="border-2 border-blue-700 p-3 shadow-2xl"
+            className=" p-3 shadow-2xl"
           ></textarea>
         </div>
         <button

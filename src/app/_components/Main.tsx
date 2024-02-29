@@ -12,6 +12,7 @@ function Main() {
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     backgroundPosition: "center",
+    backgroundattachment: "scroll",
   };
   useEffect(() => {
     AOS.init({
@@ -34,7 +35,7 @@ function Main() {
           <p
             data-aos="fade-up"
             data-aos-delay="250"
-            className="text-lg md:text-xl mb-8"
+            className="md:text-xl mb-8 sm:text-sm"
           >
             Leading the way in innovation and technology solutions
           </p>
